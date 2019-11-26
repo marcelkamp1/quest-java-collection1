@@ -1,6 +1,11 @@
 public class Hero {
 
-    // attributs
+    @Override
+	public String toString() {
+		return "Hero [name=" + name + ", age=" + age + "]";
+	}
+
+	// attributs
     private String name;
     private int age;
 
